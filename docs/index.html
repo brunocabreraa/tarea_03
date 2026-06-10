@@ -1,19 +1,93 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <title>
-      Pontificia Universidad Católica de Chile
-        </title>
-    </head>
-    <body>
-        <h1>
-            Cabecera más grande
-        </h1>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Tu Nombre Completo">
+    <meta name="description" content="Análisis de datos sobre la desigualdad territorial y el sesgo socioeconómico en los cuentos ganadores de Santiago en 100 Palabras.">
+    
+    <title>El Filtro Territorial de Santiago en 100 Palabras</title>
+</head>
+<body>
+
+    <header id="main-header">
+        <h1>Santiago* en 100 Palabras</h1>
+        <h2>¿Un espejo de la ciudad o un reflejo del privilegio territorial?</h2>
+        <p><strong>Por:</strong> Tu Nombre | <strong>Fecha:</strong> Junio 2026</p>
+        <hr>
+    </header>
+
+    <main id="story-content">
+
+        <div id="introduccion" class="narrative-section">
+            <p>
+                Al cruzar los datos de participación histórica con los índices de <strong>Pobreza Multidimensional de la encuesta CASEN 2022</strong>, podemos ver cómo este espacio donde, a priori, todos tienen las mismas posibilidades de ganar, favorece (queriéndolo o no) a los sectores con mayores ingresos de la región.
+            </p>
+            <p>
+                En el gráfico analizado, podemos observar cómo Santiago, Providencia, Ñuñoa y Las Condes concentran prácticamente el <strong>40% de todos los cuentos premiados</strong> a lo largo de las ediciones del concurso. A excepción de la comuna de Santiago, este bloque presenta los indicadores de pobreza más bajos de la región, con cifras del 4,4% en Providencia o el 4,5% en Las Condes.
+            </p>
+        </div>
+
+        <div id="visualizacion-datos" class="media-section">
+            <h3>Visualización Histórica: Correlación entre Pobreza y Relatos</h3>
+            
+            <img src="visualizacion.jpg" alt="Gráfico de dispersión que muestra la correlación negativa entre los índices de pobreza CASEN y el número de cuentos ganadores por comuna" width="100%" style="max-width: 800px; height: auto;">
+            
+            <p><em>Gráfico analítico que demuestra la correlación negativa donde, a medida que una comuna se desplaza hacia la derecha del eje X (mayor pobreza), su presencia cae drásticamente hacia el suelo del gráfico.</em></p>
+        </div>
+
+        <div id="analisis-periferia" class="narrative-section">
+            <p>
+                Las comunas que registran una sola presencia dentro de los cuentos reconocidos históricamente son, coincidentemente, las que encabezan el ranking de pobreza multidimensional: Talagante (17%), Isla de Maipo (22%), San José de Maipo (24,5%) y casos críticos como María Pinto (27,2%) o Tiltil (29%). El punto más extremo lo ocupa San Pedro, la comuna más pobre de la región con un 32%, cuya burbuja en el gráfico se sitúa en casi el cero.
+            </p>
+
+            <div id="recuadro-tombola" style="background-color: #f9f6f0; padding: 15px; border-left: 4px solid #2c3e50;">
+                <h4>La paradoja del azar: La Tómbola de la Desigualdad</h4>
+                <p>
+                    Si metiéramos todos los cuentos finalistas de la historia en una tómbola, tendrías exactamente <strong>1 probabilidad entre 1.900</strong> de extraer el único cuento ganador proveniente de Talagante (escrito por Trinidad Vergara Salinas, de 16 años). En cambio, al meter la mano, tendrías más de 100 oportunidades de sacar un relato de Ñuñoa, Providencia o Las Condes.
+                </p>
+            </div>
+        </div>
+
+        <div id="excepcion-santiago" class="narrative-section">
+            <h3>La Excepción de Santiago Centro: Capital Cultural vs. Económico</h3>
+            <p>
+                Un hallazgo fundamental en este análisis es la excepción que parece ser la comuna de Santiago. La “excepción” refiere a que dicha comuna, a diferencia de Las Condes, Providencia y Ñuñoa, está en un rango ligeramente menor a la mediana de la pobreza multidimensional en la Región Metropolitana del 2022 (18,9% > 16,5%), y bastante lejos de los rangos que manejan las comunas con menos pobreza:
+            </p>
+
+            <ul>
+                <li><strong>Vitacura:</strong> 2,5%</li>
+                <li><strong>Providencia:</strong> 4,4%</li>
+                <li><strong>Las Condes:</strong> 4,5%</li>
+                <li><strong>La Reina:</strong> 4,9%</li>
+                <li><strong>Ñuñoa:</strong> 5,2%</li>
+            </ul>
+
+            <p>
+                ¿A qué se puede atribuir esto? A que Santiago históricamente ha tenido un componente educacional que difiere de otras comunas. Si bien hoy se ha visto afectada su reputación, los <strong>liceos emblemáticos</strong> (colegios públicos de excelencia académica) fueron por años los mejores centros educacionales del país, en su mayoría repartidos por Santiago Centro.
+            </p>
+            <p>
+                Si bien no hay un componente de capital económico exageradamente distinto al promedio regional, sí se puede inferir que existe, al menos, una diferencia en <strong>capital cultural</strong>: factor indispensable para efectos de la calidad al momento de escribir de forma competitiva.
+            </p>
+        </div>
+
+        <div id="conclusion" class="narrative-section">
+            <h3>Conclusión del Hallazgo</h3>
+            <p>
+                Desde ahí podemos colegir que esta visualización permite entender que los cuentos que premia el certamen (al catalogarlos dentro de los cien mejores por edición dentro de un universo de miles de postulaciones) están intrínsecamente ligados a las condiciones materiales y educativas que ha tenido el autor, las que son indisolubles al panorama de la comuna donde reside.
+            </p>
+        </div>
+
+    </main>
+
+    <footer id="main-footer">
+        <hr>
+        <p>© 2026 Investigación de Datos Individual - Proyecto Webstory Grupal.</p>
         <p>
-            Hola, soy un párrafo
+            Para saber más sobre los indicadores utilizados, puedes revisar la 
+            <a href="https://observatorio.ministeriodesarrollosocial.gob.cl/casen-2022" target="_blank">Encuesta CASEN 2022 del Ministerio de Desarrollo Social</a>.
         </p>
-        <p>
-            Soy otro párrafo
-        </p>
-    </body>
-<html
+    </footer>
+
+</body>
+</html>
